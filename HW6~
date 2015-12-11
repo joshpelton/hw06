@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main()
+{
+    char str[100];
+    int i=0;
+
+    printf("Enter message to be encrypted:");
+    scanf("%s", str);
+
+    while(str[i])
+    {
+        printf("%d", str[i++]);
+    }
+
+    return 0;
+}
+
+
+
+
+
+int main (void)
+{
+    int key;
+    char string;
+
+    printf ("Enter thingy to be encrypted:");
+    scanf ("%s", &string);
+    printf ("Enter the key for encryption:");
+    scanf ("%d", &key);
+
+
+
+
+
+
+
+int x;
+int n;
+
+int subtract()
+{
+    return x - n;
+}
+
+
+__________________________
+
+E = x - n
+n = number of shift (the key)
+x = number of the letter (in ascii)
+
+Declaration:
+void caesar (int key, char message[])
+
+Code to brute force decrypt:
+Sp S rkn kcuon zoyzvo grkd droi gkxdon, droi gyevn rkfo cksn pkcdob rybcoc.
